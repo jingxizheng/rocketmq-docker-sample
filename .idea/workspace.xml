@@ -2,8 +2,209 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c0f4cc5c-fcca-44da-a8bb-dac7e6ccf29c" name="Default" comment="">
+      <change type="DELETED" beforePath="$PROJECT_DIR$/apache-rocketmq-all/DISCLAIMER" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/apache-rocketmq-all/LICENSE" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/apache-rocketmq-all/NOTICE" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/apache-rocketmq-all/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/apache-rocketmq-all/benchmark/consumer.sh" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/apache-rocketmq-all/benchmark/producer.sh" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/apache-rocketmq-all/benchmark/runclass.sh" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/apache-rocketmq-all/benchmark/tproducer.sh" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/apache-rocketmq-all/bin/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/apache-rocketmq-all/bin/cachedog.sh" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/apache-rocketmq-all/bin/cleancache.sh" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/apache-rocketmq-all/bin/cleancache.v1.sh" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/apache-rocketmq-all/bin/mqadmin" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/apache-rocketmq-all/bin/mqadmin.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/apache-rocketmq-all/bin/mqbroker" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/apache-rocketmq-all/bin/mqbroker.numanode0" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/apache-rocketmq-all/bin/mqbroker.numanode1" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/apache-rocketmq-all/bin/mqbroker.numanode2" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/apache-rocketmq-all/bin/mqbroker.numanode3" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/apache-rocketmq-all/bin/mqbroker.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/apache-rocketmq-all/bin/mqfiltersrv" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/apache-rocketmq-all/bin/mqfiltersrv.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/apache-rocketmq-all/bin/mqnamesrv" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/apache-rocketmq-all/bin/mqnamesrv.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/apache-rocketmq-all/bin/mqshutdown" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/apache-rocketmq-all/bin/os.sh" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/apache-rocketmq-all/bin/play.sh" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/apache-rocketmq-all/bin/runbroker.sh" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/apache-rocketmq-all/bin/runserver.sh" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/apache-rocketmq-all/bin/setcache.sh" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/apache-rocketmq-all/bin/startfsrv.sh" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/apache-rocketmq-all/bin/tools.sh" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/apache-rocketmq-all/conf/2m-2s-async/broker-a-s.properties" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/apache-rocketmq-all/conf/2m-2s-async/broker-a.properties" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/apache-rocketmq-all/conf/2m-2s-async/broker-b-s.properties" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/apache-rocketmq-all/conf/2m-2s-async/broker-b.properties" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/apache-rocketmq-all/conf/2m-2s-sync/broker-a-s.properties" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/apache-rocketmq-all/conf/2m-2s-sync/broker-a.properties" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/apache-rocketmq-all/conf/2m-2s-sync/broker-b-s.properties" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/apache-rocketmq-all/conf/2m-2s-sync/broker-b.properties" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/apache-rocketmq-all/conf/2m-noslave/broker-a.properties" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/apache-rocketmq-all/conf/2m-noslave/broker-b.properties" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/apache-rocketmq-all/conf/broker.conf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/apache-rocketmq-all/conf/logback_broker.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/apache-rocketmq-all/conf/logback_filtersrv.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/apache-rocketmq-all/conf/logback_namesrv.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/apache-rocketmq-all/conf/logback_tools.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/apache-rocketmq-all/lib/commons-cli-1.2.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/apache-rocketmq-all/lib/commons-lang3-3.4.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/apache-rocketmq-all/lib/fastjson-1.2.12.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/apache-rocketmq-all/lib/javassist-3.20.0-GA.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/apache-rocketmq-all/lib/jna-4.2.2.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/apache-rocketmq-all/lib/logback-classic-1.0.13.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/apache-rocketmq-all/lib/logback-core-1.0.13.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/apache-rocketmq-all/lib/netty-all-4.0.36.Final.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/apache-rocketmq-all/lib/rocketmq-broker-4.0.0-incubating.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/apache-rocketmq-all/lib/rocketmq-client-4.0.0-incubating.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/apache-rocketmq-all/lib/rocketmq-common-4.0.0-incubating.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/apache-rocketmq-all/lib/rocketmq-example-4.0.0-incubating.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/apache-rocketmq-all/lib/rocketmq-filtersrv-4.0.0-incubating.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/apache-rocketmq-all/lib/rocketmq-namesrv-4.0.0-incubating.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/apache-rocketmq-all/lib/rocketmq-remoting-4.0.0-incubating.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/apache-rocketmq-all/lib/rocketmq-srvutil-4.0.0-incubating.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/apache-rocketmq-all/lib/rocketmq-store-4.0.0-incubating.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/apache-rocketmq-all/lib/rocketmq-tools-4.0.0-incubating.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/apache-rocketmq-all/lib/slf4j-api-1.7.5.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/docker/base/apache-rocketmq-all/DISCLAIMER" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/docker/base/apache-rocketmq-all/LICENSE" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/docker/base/apache-rocketmq-all/NOTICE" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/docker/base/apache-rocketmq-all/benchmark/consumer.sh" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/docker/base/apache-rocketmq-all/benchmark/producer.sh" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/docker/base/apache-rocketmq-all/benchmark/runclass.sh" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/docker/base/apache-rocketmq-all/benchmark/tproducer.sh" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/docker/base/apache-rocketmq-all/bin/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/docker/base/apache-rocketmq-all/bin/cachedog.sh" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/docker/base/apache-rocketmq-all/bin/cleancache.sh" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/docker/base/apache-rocketmq-all/bin/cleancache.v1.sh" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/docker/base/apache-rocketmq-all/bin/mqadmin" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/docker/base/apache-rocketmq-all/bin/mqadmin.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/docker/base/apache-rocketmq-all/bin/mqbroker" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/docker/base/apache-rocketmq-all/bin/mqbroker.numanode0" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/docker/base/apache-rocketmq-all/bin/mqbroker.numanode1" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/docker/base/apache-rocketmq-all/bin/mqbroker.numanode2" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/docker/base/apache-rocketmq-all/bin/mqbroker.numanode3" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/docker/base/apache-rocketmq-all/bin/mqbroker.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/docker/base/apache-rocketmq-all/bin/mqfiltersrv" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/docker/base/apache-rocketmq-all/bin/mqfiltersrv.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/docker/base/apache-rocketmq-all/bin/mqnamesrv" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/docker/base/apache-rocketmq-all/bin/mqnamesrv.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/docker/base/apache-rocketmq-all/bin/mqshutdown" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/docker/base/apache-rocketmq-all/bin/os.sh" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/docker/base/apache-rocketmq-all/bin/play.sh" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/docker/base/apache-rocketmq-all/bin/runbroker.sh" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/docker/base/apache-rocketmq-all/bin/runserver.sh" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/docker/base/apache-rocketmq-all/bin/setcache.sh" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/docker/base/apache-rocketmq-all/bin/startfsrv.sh" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/docker/base/apache-rocketmq-all/bin/tools.sh" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/docker/base/apache-rocketmq-all/conf/2m-2s-async/broker-a-s.properties" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/docker/base/apache-rocketmq-all/conf/2m-2s-async/broker-a.properties" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/docker/base/apache-rocketmq-all/conf/2m-2s-async/broker-b-s.properties" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/docker/base/apache-rocketmq-all/conf/2m-2s-async/broker-b.properties" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/docker/base/apache-rocketmq-all/conf/2m-2s-sync/broker-a-s.properties" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/docker/base/apache-rocketmq-all/conf/2m-2s-sync/broker-a.properties" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/docker/base/apache-rocketmq-all/conf/2m-2s-sync/broker-b-s.properties" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/docker/base/apache-rocketmq-all/conf/2m-2s-sync/broker-b.properties" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/docker/base/apache-rocketmq-all/conf/2m-noslave/broker-a.properties" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/docker/base/apache-rocketmq-all/conf/2m-noslave/broker-b.properties" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/docker/base/apache-rocketmq-all/conf/broker.conf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/docker/base/apache-rocketmq-all/conf/logback_broker.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/docker/base/apache-rocketmq-all/conf/logback_filtersrv.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/docker/base/apache-rocketmq-all/conf/logback_namesrv.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/docker/base/apache-rocketmq-all/conf/logback_tools.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/docker/base/apache-rocketmq-all/lib/commons-cli-1.2.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/docker/base/apache-rocketmq-all/lib/commons-lang3-3.4.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/docker/base/apache-rocketmq-all/lib/fastjson-1.2.12.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/docker/base/apache-rocketmq-all/lib/javassist-3.20.0-GA.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/docker/base/apache-rocketmq-all/lib/jna-4.2.2.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/docker/base/apache-rocketmq-all/lib/logback-classic-1.0.13.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/docker/base/apache-rocketmq-all/lib/logback-core-1.0.13.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/docker/base/apache-rocketmq-all/lib/netty-all-4.0.36.Final.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/docker/base/apache-rocketmq-all/lib/rocketmq-broker-4.0.0-incubating.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/docker/base/apache-rocketmq-all/lib/rocketmq-client-4.0.0-incubating.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/docker/base/apache-rocketmq-all/lib/rocketmq-common-4.0.0-incubating.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/docker/base/apache-rocketmq-all/lib/rocketmq-example-4.0.0-incubating.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/docker/base/apache-rocketmq-all/lib/rocketmq-filtersrv-4.0.0-incubating.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/docker/base/apache-rocketmq-all/lib/rocketmq-namesrv-4.0.0-incubating.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/docker/base/apache-rocketmq-all/lib/rocketmq-remoting-4.0.0-incubating.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/docker/base/apache-rocketmq-all/lib/rocketmq-srvutil-4.0.0-incubating.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/docker/base/apache-rocketmq-all/lib/rocketmq-store-4.0.0-incubating.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/docker/base/apache-rocketmq-all/lib/rocketmq-tools-4.0.0-incubating.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/docker/base/apache-rocketmq-all/lib/slf4j-api-1.7.5.jar" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/docker/play.sh" afterPath="$PROJECT_DIR$/docker/play.sh" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/apache-rocketmq-all/DISCLAIMER" afterPath="$PROJECT_DIR$/base/apache-rocketmq-all/DISCLAIMER" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/apache-rocketmq-all/LICENSE" afterPath="$PROJECT_DIR$/base/apache-rocketmq-all/LICENSE" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/apache-rocketmq-all/NOTICE" afterPath="$PROJECT_DIR$/base/apache-rocketmq-all/NOTICE" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/apache-rocketmq-all/benchmark/consumer.sh" afterPath="$PROJECT_DIR$/base/apache-rocketmq-all/benchmark/consumer.sh" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/apache-rocketmq-all/benchmark/producer.sh" afterPath="$PROJECT_DIR$/base/apache-rocketmq-all/benchmark/producer.sh" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/apache-rocketmq-all/benchmark/runclass.sh" afterPath="$PROJECT_DIR$/base/apache-rocketmq-all/benchmark/runclass.sh" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/apache-rocketmq-all/benchmark/tproducer.sh" afterPath="$PROJECT_DIR$/base/apache-rocketmq-all/benchmark/tproducer.sh" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/apache-rocketmq-all/bin/README.md" afterPath="$PROJECT_DIR$/base/apache-rocketmq-all/bin/README.md" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/apache-rocketmq-all/bin/cachedog.sh" afterPath="$PROJECT_DIR$/base/apache-rocketmq-all/bin/cachedog.sh" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/apache-rocketmq-all/bin/cleancache.sh" afterPath="$PROJECT_DIR$/base/apache-rocketmq-all/bin/cleancache.sh" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/apache-rocketmq-all/bin/cleancache.v1.sh" afterPath="$PROJECT_DIR$/base/apache-rocketmq-all/bin/cleancache.v1.sh" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/apache-rocketmq-all/bin/mqadmin" afterPath="$PROJECT_DIR$/base/apache-rocketmq-all/bin/mqadmin" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/apache-rocketmq-all/bin/mqadmin.xml" afterPath="$PROJECT_DIR$/base/apache-rocketmq-all/bin/mqadmin.xml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/apache-rocketmq-all/bin/mqbroker" afterPath="$PROJECT_DIR$/base/apache-rocketmq-all/bin/mqbroker" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/apache-rocketmq-all/bin/mqbroker.numanode0" afterPath="$PROJECT_DIR$/base/apache-rocketmq-all/bin/mqbroker.numanode0" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/apache-rocketmq-all/bin/mqbroker.numanode1" afterPath="$PROJECT_DIR$/base/apache-rocketmq-all/bin/mqbroker.numanode1" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/apache-rocketmq-all/bin/mqbroker.numanode2" afterPath="$PROJECT_DIR$/base/apache-rocketmq-all/bin/mqbroker.numanode2" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/apache-rocketmq-all/bin/mqbroker.numanode3" afterPath="$PROJECT_DIR$/base/apache-rocketmq-all/bin/mqbroker.numanode3" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/apache-rocketmq-all/bin/mqbroker.xml" afterPath="$PROJECT_DIR$/base/apache-rocketmq-all/bin/mqbroker.xml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/apache-rocketmq-all/bin/mqfiltersrv" afterPath="$PROJECT_DIR$/base/apache-rocketmq-all/bin/mqfiltersrv" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/apache-rocketmq-all/bin/mqfiltersrv.xml" afterPath="$PROJECT_DIR$/base/apache-rocketmq-all/bin/mqfiltersrv.xml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/apache-rocketmq-all/bin/mqnamesrv" afterPath="$PROJECT_DIR$/base/apache-rocketmq-all/bin/mqnamesrv" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/apache-rocketmq-all/bin/mqnamesrv.xml" afterPath="$PROJECT_DIR$/base/apache-rocketmq-all/bin/mqnamesrv.xml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/apache-rocketmq-all/bin/mqshutdown" afterPath="$PROJECT_DIR$/base/apache-rocketmq-all/bin/mqshutdown" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/apache-rocketmq-all/bin/os.sh" afterPath="$PROJECT_DIR$/base/apache-rocketmq-all/bin/os.sh" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/apache-rocketmq-all/bin/play.sh" afterPath="$PROJECT_DIR$/base/apache-rocketmq-all/bin/play.sh" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/apache-rocketmq-all/bin/runbroker.sh" afterPath="$PROJECT_DIR$/base/apache-rocketmq-all/bin/runbroker.sh" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/apache-rocketmq-all/bin/runserver.sh" afterPath="$PROJECT_DIR$/base/apache-rocketmq-all/bin/runserver.sh" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/apache-rocketmq-all/bin/setcache.sh" afterPath="$PROJECT_DIR$/base/apache-rocketmq-all/bin/setcache.sh" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/apache-rocketmq-all/bin/startfsrv.sh" afterPath="$PROJECT_DIR$/base/apache-rocketmq-all/bin/startfsrv.sh" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/apache-rocketmq-all/bin/tools.sh" afterPath="$PROJECT_DIR$/base/apache-rocketmq-all/bin/tools.sh" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/apache-rocketmq-all/conf/2m-2s-async/broker-a-s.properties" afterPath="$PROJECT_DIR$/base/apache-rocketmq-all/conf/2m-2s-async/broker-a-s.properties" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/apache-rocketmq-all/conf/2m-2s-async/broker-a.properties" afterPath="$PROJECT_DIR$/base/apache-rocketmq-all/conf/2m-2s-async/broker-a.properties" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/apache-rocketmq-all/conf/2m-2s-async/broker-b-s.properties" afterPath="$PROJECT_DIR$/base/apache-rocketmq-all/conf/2m-2s-async/broker-b-s.properties" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/apache-rocketmq-all/conf/2m-2s-async/broker-b.properties" afterPath="$PROJECT_DIR$/base/apache-rocketmq-all/conf/2m-2s-async/broker-b.properties" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/apache-rocketmq-all/conf/2m-2s-sync/broker-a-s.properties" afterPath="$PROJECT_DIR$/base/apache-rocketmq-all/conf/2m-2s-sync/broker-a-s.properties" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/apache-rocketmq-all/conf/2m-2s-sync/broker-a.properties" afterPath="$PROJECT_DIR$/base/apache-rocketmq-all/conf/2m-2s-sync/broker-a.properties" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/apache-rocketmq-all/conf/2m-2s-sync/broker-b-s.properties" afterPath="$PROJECT_DIR$/base/apache-rocketmq-all/conf/2m-2s-sync/broker-b-s.properties" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/apache-rocketmq-all/conf/2m-2s-sync/broker-b.properties" afterPath="$PROJECT_DIR$/base/apache-rocketmq-all/conf/2m-2s-sync/broker-b.properties" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/apache-rocketmq-all/conf/2m-noslave/broker-a.properties" afterPath="$PROJECT_DIR$/base/apache-rocketmq-all/conf/2m-noslave/broker-a.properties" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/apache-rocketmq-all/conf/2m-noslave/broker-b.properties" afterPath="$PROJECT_DIR$/base/apache-rocketmq-all/conf/2m-noslave/broker-b.properties" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/apache-rocketmq-all/conf/broker.conf" afterPath="$PROJECT_DIR$/base/apache-rocketmq-all/conf/broker.conf" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/apache-rocketmq-all/conf/logback_broker.xml" afterPath="$PROJECT_DIR$/base/apache-rocketmq-all/conf/logback_broker.xml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/apache-rocketmq-all/conf/logback_filtersrv.xml" afterPath="$PROJECT_DIR$/base/apache-rocketmq-all/conf/logback_filtersrv.xml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/apache-rocketmq-all/conf/logback_namesrv.xml" afterPath="$PROJECT_DIR$/base/apache-rocketmq-all/conf/logback_namesrv.xml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/apache-rocketmq-all/conf/logback_tools.xml" afterPath="$PROJECT_DIR$/base/apache-rocketmq-all/conf/logback_tools.xml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/apache-rocketmq-all/lib/commons-cli-1.2.jar" afterPath="$PROJECT_DIR$/base/apache-rocketmq-all/lib/commons-cli-1.2.jar" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/apache-rocketmq-all/lib/commons-lang3-3.4.jar" afterPath="$PROJECT_DIR$/base/apache-rocketmq-all/lib/commons-lang3-3.4.jar" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/apache-rocketmq-all/lib/fastjson-1.2.12.jar" afterPath="$PROJECT_DIR$/base/apache-rocketmq-all/lib/fastjson-1.2.12.jar" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/apache-rocketmq-all/lib/javassist-3.20.0-GA.jar" afterPath="$PROJECT_DIR$/base/apache-rocketmq-all/lib/javassist-3.20.0-GA.jar" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/apache-rocketmq-all/lib/jna-4.2.2.jar" afterPath="$PROJECT_DIR$/base/apache-rocketmq-all/lib/jna-4.2.2.jar" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/apache-rocketmq-all/lib/logback-classic-1.0.13.jar" afterPath="$PROJECT_DIR$/base/apache-rocketmq-all/lib/logback-classic-1.0.13.jar" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/apache-rocketmq-all/lib/logback-core-1.0.13.jar" afterPath="$PROJECT_DIR$/base/apache-rocketmq-all/lib/logback-core-1.0.13.jar" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/apache-rocketmq-all/lib/netty-all-4.0.36.Final.jar" afterPath="$PROJECT_DIR$/base/apache-rocketmq-all/lib/netty-all-4.0.36.Final.jar" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/apache-rocketmq-all/lib/rocketmq-broker-4.0.0-incubating.jar" afterPath="$PROJECT_DIR$/base/apache-rocketmq-all/lib/rocketmq-broker-4.0.0-incubating.jar" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/apache-rocketmq-all/lib/rocketmq-client-4.0.0-incubating.jar" afterPath="$PROJECT_DIR$/base/apache-rocketmq-all/lib/rocketmq-client-4.0.0-incubating.jar" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/apache-rocketmq-all/lib/rocketmq-common-4.0.0-incubating.jar" afterPath="$PROJECT_DIR$/base/apache-rocketmq-all/lib/rocketmq-common-4.0.0-incubating.jar" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/apache-rocketmq-all/lib/rocketmq-example-4.0.0-incubating.jar" afterPath="$PROJECT_DIR$/base/apache-rocketmq-all/lib/rocketmq-example-4.0.0-incubating.jar" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/apache-rocketmq-all/lib/rocketmq-filtersrv-4.0.0-incubating.jar" afterPath="$PROJECT_DIR$/base/apache-rocketmq-all/lib/rocketmq-filtersrv-4.0.0-incubating.jar" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/apache-rocketmq-all/lib/rocketmq-namesrv-4.0.0-incubating.jar" afterPath="$PROJECT_DIR$/base/apache-rocketmq-all/lib/rocketmq-namesrv-4.0.0-incubating.jar" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/apache-rocketmq-all/lib/rocketmq-remoting-4.0.0-incubating.jar" afterPath="$PROJECT_DIR$/base/apache-rocketmq-all/lib/rocketmq-remoting-4.0.0-incubating.jar" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/apache-rocketmq-all/lib/rocketmq-srvutil-4.0.0-incubating.jar" afterPath="$PROJECT_DIR$/base/apache-rocketmq-all/lib/rocketmq-srvutil-4.0.0-incubating.jar" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/apache-rocketmq-all/lib/rocketmq-store-4.0.0-incubating.jar" afterPath="$PROJECT_DIR$/base/apache-rocketmq-all/lib/rocketmq-store-4.0.0-incubating.jar" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/apache-rocketmq-all/lib/rocketmq-tools-4.0.0-incubating.jar" afterPath="$PROJECT_DIR$/base/apache-rocketmq-all/lib/rocketmq-tools-4.0.0-incubating.jar" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/apache-rocketmq-all/lib/slf4j-api-1.7.5.jar" afterPath="$PROJECT_DIR$/base/apache-rocketmq-all/lib/slf4j-api-1.7.5.jar" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/docker/base/Dockerfile" afterPath="$PROJECT_DIR$/base/Dockerfile" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/docker/base/apache-rocketmq-all/README.md" afterPath="$PROJECT_DIR$/base/apache-rocketmq-all/README.md" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/docker/base/base.sh" afterPath="$PROJECT_DIR$/base/base.sh" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/docker/broker/Dockerfile" afterPath="$PROJECT_DIR$/broker/Dockerfile" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/docker/namesrv/Dockerfile" afterPath="$PROJECT_DIR$/namesrv/Dockerfile" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/docker/play.sh" afterPath="$PROJECT_DIR$/play.sh" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -14,32 +215,42 @@
   </component>
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
-    <leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file leaf-file-name="Dockerfile" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/docker/namesrv/Dockerfile">
+        <entry file="file://$PROJECT_DIR$/namesrv/Dockerfile">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="374">
-              <caret line="17" column="82" lean-forward="true" selection-start-line="17" selection-start-column="82" selection-end-line="17" selection-end-column="82" />
+              <caret line="17" column="82" lean-forward="false" selection-start-line="17" selection-start-column="82" selection-end-line="17" selection-end-column="82" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
       <file leaf-file-name="Dockerfile" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/docker/broker/Dockerfile">
+        <entry file="file://$PROJECT_DIR$/broker/Dockerfile">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="462">
-              <caret line="21" column="3" lean-forward="false" selection-start-line="21" selection-start-column="3" selection-end-line="21" selection-end-column="3" />
+            <state relative-caret-position="506">
+              <caret line="23" column="99" lean-forward="false" selection-start-line="23" selection-start-column="99" selection-end-line="23" selection-end-column="99" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
       <file leaf-file-name="play.sh" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/docker/play.sh">
+        <entry file="file://$PROJECT_DIR$/play.sh">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="44">
-              <caret line="2" column="99" lean-forward="false" selection-start-line="2" selection-start-column="99" selection-end-line="2" selection-end-column="99" />
+            <state relative-caret-position="286">
+              <caret line="13" column="0" lean-forward="true" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Dockerfile" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/base/Dockerfile">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="330">
+              <caret line="15" column="26" lean-forward="false" selection-start-line="15" selection-start-column="26" selection-end-line="15" selection-end-column="26" />
               <folding />
             </state>
           </provider>
@@ -93,7 +304,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scratches" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -116,56 +327,26 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="docker" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="rocketmq-docker-sample" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="rocketmq-docker-sample" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="docker" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="namesrv" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="rocketmq-docker-sample" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="rocketmq-docker-sample" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="docker" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="broker" />
+              <option name="myItemId" value="base" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
+      <pane id="Scratches" />
       <pane id="Scope" />
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\01-web\workspace\rocketmq-docker-sample" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -324,6 +505,17 @@
       <listeners />
       <method />
     </configuration>
+    <configuration default="true" type="BashConfigurationType" factoryName="Bash">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="INTERPRETER_PATH" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="PARAMETERS" value="" />
+      <module name="" />
+      <envs />
+      <method />
+    </configuration>
     <configuration default="true" type="Cold Fusion runner description" factoryName="Cold Fusion" custom_browser="" web_path="">
       <method />
     </configuration>
@@ -417,6 +609,7 @@
       <setting name="passParentEnv" value="true" />
       <setting name="launchBrowser" value="true" />
       <setting name="launchBrowserUrl" value="" />
+      <setting name="depsClasspath" value="false" />
       <method />
     </configuration>
     <configuration default="true" type="JUnit" factoryName="JUnit">
@@ -545,6 +738,12 @@
       <method />
     </configuration>
     <configuration default="true" type="js.build_tools.gulp" factoryName="Gulp.js">
+      <node-interpreter>project</node-interpreter>
+      <node-options />
+      <gulpfile />
+      <tasks />
+      <arguments />
+      <envs />
       <method />
     </configuration>
     <configuration default="true" type="js.build_tools.npm" factoryName="npm">
@@ -571,7 +770,8 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1501468869079</updated>
-      <workItem from="1501468870697" duration="3393000" />
+      <workItem from="1501468870697" duration="5136000" />
+      <workItem from="1501483402718" duration="560000" />
     </task>
     <task id="LOCAL-00001" summary="change Dockerfile in broker from CMD to RUN">
       <created>1501481509654</created>
@@ -580,44 +780,51 @@
       <option name="project" value="LOCAL" />
       <updated>1501481509654</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="add rocker stop and remove">
+      <created>1501481587946</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1501481587946</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="3393000" />
+    <option name="totallyTimeSpent" value="5696000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1874" height="1096" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Nl-Palette" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
-      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Nl-Palette" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Properties" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.23594266" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Properties" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.238699" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
+      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -628,25 +835,15 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="change Dockerfile in broker from CMD to RUN" />
-    <option name="LAST_COMMIT_MESSAGE" value="change Dockerfile in broker from CMD to RUN" />
+    <MESSAGE value="add rocker stop and remove" />
+    <option name="LAST_COMMIT_MESSAGE" value="add rocker stop and remove" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="44">
-            <caret line="2" column="0" lean-forward="true" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
-            <folding />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/docker/namesrv/Dockerfile">
+    <entry file="file://$PROJECT_DIR$/namesrv/Dockerfile">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="374">
           <caret line="17" column="82" lean-forward="true" selection-start-line="17" selection-start-column="82" selection-end-line="17" selection-end-column="82" />
@@ -654,18 +851,84 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/docker/broker/Dockerfile">
+    <entry file="file://$PROJECT_DIR$/play.sh">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="462">
-          <caret line="21" column="3" lean-forward="false" selection-start-line="21" selection-start-column="3" selection-end-line="21" selection-end-column="3" />
+        <state relative-caret-position="176">
+          <caret line="8" column="33" lean-forward="false" selection-start-line="8" selection-start-column="33" selection-end-line="8" selection-end-column="33" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/docker/play.sh">
+    <entry file="file://$PROJECT_DIR$/broker/Dockerfile">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="44">
-          <caret line="2" column="99" lean-forward="false" selection-start-line="2" selection-start-column="99" selection-end-line="2" selection-end-column="99" />
+        <state relative-caret-position="528">
+          <caret line="24" column="0" lean-forward="true" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="44">
+            <caret line="2" column="0" lean-forward="true" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/base/apache-rocketmq-all/conf/2m-2s-sync/broker-a-s.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/namesrv/Dockerfile">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="374">
+          <caret line="17" column="82" lean-forward="false" selection-start-line="17" selection-start-column="82" selection-end-line="17" selection-end-column="82" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/broker/Dockerfile">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="506">
+          <caret line="23" column="99" lean-forward="false" selection-start-line="23" selection-start-column="99" selection-end-line="23" selection-end-column="99" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/base/apache-rocketmq-all/conf/2m-2s-sync/broker-a.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="462">
+          <caret line="21" column="25" lean-forward="true" selection-start-line="21" selection-start-column="25" selection-end-line="21" selection-end-column="25" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/base/apache-rocketmq-all/conf/2m-noslave/broker-a.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/base/Dockerfile">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="15" column="26" lean-forward="false" selection-start-line="15" selection-start-column="26" selection-end-line="15" selection-end-column="26" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/play.sh">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="286">
+          <caret line="13" column="0" lean-forward="true" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
           <folding />
         </state>
       </provider>
