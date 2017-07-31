@@ -1,5 +1,8 @@
 version: '3'
 
+networks:
+  rocketmq:
+
 services:
   rocketmq-base:
     image: $ROCKETMQ_BASE_IMAGE:$ROCKETMQ_VERSION
