@@ -1,4 +1,7 @@
 #!/bin/bash
+
+sudo docker stop rmqnamesrv && docker stop rmqbroker && docker rm rmqnamesrv && docker rm rmqbroker
+
 sudo docker build -t apache/incubator-rocketmq-base:4.0.0-incubating ./base
 
 sudo docker build -t apache/incubator-rocketmq-namesrv:4.0.0-incubating ./namesrv
