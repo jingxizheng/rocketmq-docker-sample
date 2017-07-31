@@ -1,0 +1,44 @@
+version: '3'
+
+volumes:
+
+services:
+  rocketmq-base:
+    image: $ROCKETMQ_BASE_IMAGE:$ROCKETMQ_VERSION
+    build: ./base
+
+  rocketmq-namesrv:
+    image: $ROCKETMQ_NAMESRV_IAMGE:$ROCKETMQ_VERSION
+    build:
+      context: ./namesrv
+      args:
+        BASE_IMAGE: $ROCKETMQ_BASE_IMAGE:$ROCKETMQ_VERSION
+        PORT: $ROCKETMQ_NAMESRV_PORT
+    ports:
+      - "9876:9876"
+    depends_on:
+      - rocketmq-base
+    networks:
+      rocketmq:
+        aliases:
+          - $ROCKETMQ_NAMESRV_HOST
+
+  rocketmq-broker-a-m:
+    image: $ROCKETMQ_BROKER_A_M_IMAGE:$ROCKETMQ_VERSION
+    build:
+      context: ./broker
+      args:
+        BROKER_IP1: 192.168.220.141
+        LISTEN_PORT: 10911
+    environment:
+      NAMESRV_ADDR: $ROCKETMQ_NAMESRV_HOST:$ROCKETMQ_NAMESRV_PORT
+    ports:
+      - "10909:10909"
+      - "10911:10911"
+    depends_on:
+      - rocketmq-base
+      - rocketmq-namesrv
+    networks:
+      rocketmq:
+        aliases:
+          - $ROCKETMQ_BROKER_A_M_HOST

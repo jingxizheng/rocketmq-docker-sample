@@ -1,5 +1,8 @@
+ARG BASE_IMAGE
+ARG PORT
+
 # Start from a base image.
-FROM apache/incubator-rocketmq-base:4.0.0-incubating
+FROM $BASE_IMAGE
 
 # Rocketmq version
 ENV ROCKETMQ_VERSION 4.0.0-incubating
@@ -17,7 +20,7 @@ RUN chmod +x bin/mqnamesrv
 
 CMD cd ${ROCKETMQ_HOME}/bin && export JAVA_OPT=" -Duser.home=/opt" && sh mqnamesrv
 
-EXPOSE 9876
+EXPOSE $PORT
 VOLUME /opt/logs \
 		/opt/store
 
