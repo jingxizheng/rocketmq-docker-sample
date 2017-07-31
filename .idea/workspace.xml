@@ -2,11 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c0f4cc5c-fcca-44da-a8bb-dac7e6ccf29c" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.env" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/docker-compose.yml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/broker/Dockerfile" afterPath="$PROJECT_DIR$/broker/Dockerfile" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/namesrv/Dockerfile" afterPath="$PROJECT_DIR$/namesrv/Dockerfile" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/docker-compose.yml" afterPath="$PROJECT_DIR$/docker-compose.yml" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -41,8 +38,8 @@
       <file leaf-file-name="docker-compose.yml" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/docker-compose.yml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="505">
-              <caret line="31" column="26" lean-forward="true" selection-start-line="31" selection-start-column="26" selection-end-line="31" selection-end-column="26" />
+            <state relative-caret-position="0">
+              <caret line="0" column="12" lean-forward="false" selection-start-line="0" selection-start-column="12" selection-end-line="0" selection-end-column="12" />
               <folding />
             </state>
           </provider>
@@ -725,7 +722,7 @@
       <option name="presentableId" value="Default" />
       <updated>1501468869079</updated>
       <workItem from="1501468870697" duration="5136000" />
-      <workItem from="1501483402718" duration="5819000" />
+      <workItem from="1501483402718" duration="6104000" />
     </task>
     <task id="LOCAL-00001" summary="change Dockerfile in broker from CMD to RUN">
       <created>1501481509654</created>
@@ -748,11 +745,18 @@
       <option name="project" value="LOCAL" />
       <updated>1501484006759</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="add docker compose and change other Dockerfile">
+      <created>1501494302985</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1501494302985</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="10955000" />
+    <option name="totallyTimeSpent" value="11240000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1874" height="1096" extended-state="6" />
@@ -798,7 +802,8 @@
     <MESSAGE value="change Dockerfile in broker from CMD to RUN" />
     <MESSAGE value="add rocker stop and remove" />
     <MESSAGE value="change dir" />
-    <option name="LAST_COMMIT_MESSAGE" value="change dir" />
+    <MESSAGE value="add docker compose and change other Dockerfile" />
+    <option name="LAST_COMMIT_MESSAGE" value="add docker compose and change other Dockerfile" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -905,8 +910,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/docker-compose.yml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="505">
-          <caret line="31" column="26" lean-forward="true" selection-start-line="31" selection-start-column="26" selection-end-line="31" selection-end-column="26" />
+        <state relative-caret-position="0">
+          <caret line="0" column="12" lean-forward="false" selection-start-line="0" selection-start-column="12" selection-end-line="0" selection-end-column="12" />
           <folding />
         </state>
       </provider>
