@@ -16,10 +16,10 @@ RUN mkdir -p \
 
 RUN chmod +x bin/mqbroker
 
-CMD echo "brokerIP1=192.168.220.141" >> $ROCKETMQ_HOME/conf/2m-noslave/broker-a.properties
-CMD echo "listenPort=10911" >> $ROCKETMQ_HOME/conf/2m-noslave/broker-a.properties
-CMD echo "autoCreateTopicEnable=true" >> $ROCKETMQ_HOME/conf/2m-noslave/broker-a.properties
-CMD echo "autoCreateSubscriptionGroup=true" >> $ROCKETMQ_HOME/conf/2m-noslave/broker-a.properties
+RUN echo "brokerIP1=192.168.220.141" >> $ROCKETMQ_HOME/conf/2m-noslave/broker-a.properties
+RUN echo "listenPort=10911" >> $ROCKETMQ_HOME/conf/2m-noslave/broker-a.properties
+RUN echo "autoCreateTopicEnable=true" >> $ROCKETMQ_HOME/conf/2m-noslave/broker-a.properties
+RUN echo "autoCreateSubscriptionGroup=true" >> $ROCKETMQ_HOME/conf/2m-noslave/broker-a.properties
 
 CMD cd ${ROCKETMQ_HOME}/bin && export JAVA_OPT=" -Duser.home=/opt" && sh mqbroker -c $ROCKETMQ_HOME/conf/2m-noslave/broker-a.properties
 
