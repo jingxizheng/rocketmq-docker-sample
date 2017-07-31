@@ -1,75 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="c0f4cc5c-fcca-44da-a8bb-dac7e6ccf29c" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/rocketmq-all-4.0.0-incubating-bin-release/apache-rocketmq-all/DISCLAIMER" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/rocketmq-all-4.0.0-incubating-bin-release/apache-rocketmq-all/LICENSE" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/rocketmq-all-4.0.0-incubating-bin-release/apache-rocketmq-all/NOTICE" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/rocketmq-all-4.0.0-incubating-bin-release/apache-rocketmq-all/README.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/rocketmq-all-4.0.0-incubating-bin-release/apache-rocketmq-all/benchmark/consumer.sh" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/rocketmq-all-4.0.0-incubating-bin-release/apache-rocketmq-all/benchmark/producer.sh" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/rocketmq-all-4.0.0-incubating-bin-release/apache-rocketmq-all/benchmark/runclass.sh" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/rocketmq-all-4.0.0-incubating-bin-release/apache-rocketmq-all/benchmark/tproducer.sh" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/rocketmq-all-4.0.0-incubating-bin-release/apache-rocketmq-all/bin/README.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/rocketmq-all-4.0.0-incubating-bin-release/apache-rocketmq-all/bin/cachedog.sh" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/rocketmq-all-4.0.0-incubating-bin-release/apache-rocketmq-all/bin/cleancache.sh" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/rocketmq-all-4.0.0-incubating-bin-release/apache-rocketmq-all/bin/cleancache.v1.sh" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/rocketmq-all-4.0.0-incubating-bin-release/apache-rocketmq-all/bin/mqadmin" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/rocketmq-all-4.0.0-incubating-bin-release/apache-rocketmq-all/bin/mqadmin.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/rocketmq-all-4.0.0-incubating-bin-release/apache-rocketmq-all/bin/mqbroker" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/rocketmq-all-4.0.0-incubating-bin-release/apache-rocketmq-all/bin/mqbroker.numanode0" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/rocketmq-all-4.0.0-incubating-bin-release/apache-rocketmq-all/bin/mqbroker.numanode1" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/rocketmq-all-4.0.0-incubating-bin-release/apache-rocketmq-all/bin/mqbroker.numanode2" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/rocketmq-all-4.0.0-incubating-bin-release/apache-rocketmq-all/bin/mqbroker.numanode3" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/rocketmq-all-4.0.0-incubating-bin-release/apache-rocketmq-all/bin/mqbroker.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/rocketmq-all-4.0.0-incubating-bin-release/apache-rocketmq-all/bin/mqfiltersrv" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/rocketmq-all-4.0.0-incubating-bin-release/apache-rocketmq-all/bin/mqfiltersrv.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/rocketmq-all-4.0.0-incubating-bin-release/apache-rocketmq-all/bin/mqnamesrv" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/rocketmq-all-4.0.0-incubating-bin-release/apache-rocketmq-all/bin/mqnamesrv.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/rocketmq-all-4.0.0-incubating-bin-release/apache-rocketmq-all/bin/mqshutdown" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/rocketmq-all-4.0.0-incubating-bin-release/apache-rocketmq-all/bin/os.sh" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/rocketmq-all-4.0.0-incubating-bin-release/apache-rocketmq-all/bin/play.sh" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/rocketmq-all-4.0.0-incubating-bin-release/apache-rocketmq-all/bin/runbroker.sh" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/rocketmq-all-4.0.0-incubating-bin-release/apache-rocketmq-all/bin/runserver.sh" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/rocketmq-all-4.0.0-incubating-bin-release/apache-rocketmq-all/bin/setcache.sh" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/rocketmq-all-4.0.0-incubating-bin-release/apache-rocketmq-all/bin/startfsrv.sh" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/rocketmq-all-4.0.0-incubating-bin-release/apache-rocketmq-all/bin/tools.sh" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/rocketmq-all-4.0.0-incubating-bin-release/apache-rocketmq-all/conf/2m-2s-async/broker-a-s.properties" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/rocketmq-all-4.0.0-incubating-bin-release/apache-rocketmq-all/conf/2m-2s-async/broker-a.properties" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/rocketmq-all-4.0.0-incubating-bin-release/apache-rocketmq-all/conf/2m-2s-async/broker-b-s.properties" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/rocketmq-all-4.0.0-incubating-bin-release/apache-rocketmq-all/conf/2m-2s-async/broker-b.properties" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/rocketmq-all-4.0.0-incubating-bin-release/apache-rocketmq-all/conf/2m-2s-sync/broker-a-s.properties" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/rocketmq-all-4.0.0-incubating-bin-release/apache-rocketmq-all/conf/2m-2s-sync/broker-a.properties" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/rocketmq-all-4.0.0-incubating-bin-release/apache-rocketmq-all/conf/2m-2s-sync/broker-b-s.properties" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/rocketmq-all-4.0.0-incubating-bin-release/apache-rocketmq-all/conf/2m-2s-sync/broker-b.properties" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/rocketmq-all-4.0.0-incubating-bin-release/apache-rocketmq-all/conf/2m-noslave/broker-a.properties" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/rocketmq-all-4.0.0-incubating-bin-release/apache-rocketmq-all/conf/2m-noslave/broker-b.properties" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/rocketmq-all-4.0.0-incubating-bin-release/apache-rocketmq-all/conf/broker.conf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/rocketmq-all-4.0.0-incubating-bin-release/apache-rocketmq-all/conf/logback_broker.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/rocketmq-all-4.0.0-incubating-bin-release/apache-rocketmq-all/conf/logback_filtersrv.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/rocketmq-all-4.0.0-incubating-bin-release/apache-rocketmq-all/conf/logback_namesrv.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/rocketmq-all-4.0.0-incubating-bin-release/apache-rocketmq-all/conf/logback_tools.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/rocketmq-all-4.0.0-incubating-bin-release/apache-rocketmq-all/lib/commons-cli-1.2.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/rocketmq-all-4.0.0-incubating-bin-release/apache-rocketmq-all/lib/commons-lang3-3.4.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/rocketmq-all-4.0.0-incubating-bin-release/apache-rocketmq-all/lib/fastjson-1.2.12.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/rocketmq-all-4.0.0-incubating-bin-release/apache-rocketmq-all/lib/javassist-3.20.0-GA.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/rocketmq-all-4.0.0-incubating-bin-release/apache-rocketmq-all/lib/jna-4.2.2.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/rocketmq-all-4.0.0-incubating-bin-release/apache-rocketmq-all/lib/logback-classic-1.0.13.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/rocketmq-all-4.0.0-incubating-bin-release/apache-rocketmq-all/lib/logback-core-1.0.13.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/rocketmq-all-4.0.0-incubating-bin-release/apache-rocketmq-all/lib/netty-all-4.0.36.Final.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/rocketmq-all-4.0.0-incubating-bin-release/apache-rocketmq-all/lib/rocketmq-broker-4.0.0-incubating.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/rocketmq-all-4.0.0-incubating-bin-release/apache-rocketmq-all/lib/rocketmq-client-4.0.0-incubating.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/rocketmq-all-4.0.0-incubating-bin-release/apache-rocketmq-all/lib/rocketmq-common-4.0.0-incubating.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/rocketmq-all-4.0.0-incubating-bin-release/apache-rocketmq-all/lib/rocketmq-example-4.0.0-incubating.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/rocketmq-all-4.0.0-incubating-bin-release/apache-rocketmq-all/lib/rocketmq-filtersrv-4.0.0-incubating.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/rocketmq-all-4.0.0-incubating-bin-release/apache-rocketmq-all/lib/rocketmq-namesrv-4.0.0-incubating.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/rocketmq-all-4.0.0-incubating-bin-release/apache-rocketmq-all/lib/rocketmq-remoting-4.0.0-incubating.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/rocketmq-all-4.0.0-incubating-bin-release/apache-rocketmq-all/lib/rocketmq-srvutil-4.0.0-incubating.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/rocketmq-all-4.0.0-incubating-bin-release/apache-rocketmq-all/lib/rocketmq-store-4.0.0-incubating.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/rocketmq-all-4.0.0-incubating-bin-release/apache-rocketmq-all/lib/rocketmq-tools-4.0.0-incubating.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/rocketmq-all-4.0.0-incubating-bin-release/apache-rocketmq-all/lib/slf4j-api-1.7.5.jar" afterPath="" />
-    </list>
+    <list default="true" id="c0f4cc5c-fcca-44da-a8bb-dac7e6ccf29c" name="Default" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -611,12 +543,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1501468869079</updated>
-      <workItem from="1501468870697" duration="1320000" />
+      <workItem from="1501468870697" duration="1494000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="1320000" />
+    <option name="totallyTimeSpent" value="1494000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1874" height="1096" extended-state="6" />
@@ -635,7 +567,7 @@
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24972437" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.23594266" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
