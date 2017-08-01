@@ -29,12 +29,12 @@ services:
       context: ./broker
       args:
         BROKER_IP1: 192.168.220.141
-        LISTEN_PORT: 10911
+        LISTEN_PORT: $ROCKETMQ_BROKER_A_M_PORT
+        PROPERTIES_FILE: "2m-2s-sync/broker-a.properties"
     environment:
       NAMESRV_ADDR: $ROCKETMQ_NAMESRV_HOST:$ROCKETMQ_NAMESRV_PORT
     ports:
-      - "10909:10909"
-      - "10911:10911"
+      - "$ROCKETMQ_BROKER_A_M_PORT:$ROCKETMQ_BROKER_A_M_PORT"
     depends_on:
       - rocketmq-base
       - rocketmq-namesrv
