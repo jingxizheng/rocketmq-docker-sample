@@ -1,11 +1,11 @@
 ARG BROKER_IP1
 ARG LISTEN_PORT
 
-RUN echo $BROKER_IP1
-RUN echo $LISTEN_PORT
-
 # Start from a base image.
 FROM apache/incubator-rocketmq-base:4.0.0-incubating
+
+RUN echo $BROKER_IP1
+RUN echo $LISTEN_PORT
 
 # Rocketmq version
 ENV ROCKETMQ_VERSION 4.0.0-incubating
