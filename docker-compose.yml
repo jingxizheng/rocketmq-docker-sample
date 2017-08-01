@@ -14,9 +14,8 @@ services:
       context: ./namesrv
       args:
         BASE_IMAGE: $ROCKETMQ_BASE_IMAGE:$ROCKETMQ_VERSION
-        PORT: $ROCKETMQ_NAMESRV_PORT
     ports:
-      - "9876:9876"
+      - "$ROCKETMQ_NAMESRV_PORT:$ROCKETMQ_NAMESRV_PORT"
     depends_on:
       - rocketmq-base
     networks:
