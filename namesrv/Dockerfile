@@ -4,8 +4,7 @@ ARG PORT
 # Start from a base image.
 FROM $BASE_IMAGE
 
-RUN echo $BASE_IMAGE
-RUN echo $PORT
+ENV PORT $PORT
 
 # Rocketmq version
 ENV ROCKETMQ_VERSION 4.0.0-incubating
