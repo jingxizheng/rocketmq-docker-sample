@@ -16,8 +16,8 @@ RUN mkdir -p \
 
 RUN chmod +x bin/mqbroker
 
-ARG BROKER_IP1
-ARG LISTEN_PORT
+ARG BROKER_IP1=192.168.220.141
+ARG LISTEN_PORT=10911
 
 RUN echo "brokerIP1=$BROKER_IP1" >> $ROCKETMQ_HOME/conf/2m-2s-sync/broker-a.properties \
     && echo "listenPort=$LISTEN_PORT" >> $ROCKETMQ_HOME/conf/2m-2s-sync/broker-a.properties \
