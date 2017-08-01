@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="c0f4cc5c-fcca-44da-a8bb-dac7e6ccf29c" name="Default" comment="make broker Dockerfile more general.">
+    <list default="true" id="c0f4cc5c-fcca-44da-a8bb-dac7e6ccf29c" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/broker/Dockerfile" afterPath="$PROJECT_DIR$/broker/Dockerfile" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/namesrv/Dockerfile" afterPath="$PROJECT_DIR$/namesrv/Dockerfile" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/docker-compose.yml" afterPath="$PROJECT_DIR$/docker-compose.yml" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -17,21 +17,21 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="Dockerfile" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Dockerfile" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/namesrv/Dockerfile">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="418">
-              <caret line="19" column="71" lean-forward="false" selection-start-line="19" selection-start-column="71" selection-end-line="19" selection-end-column="71" />
+            <state relative-caret-position="66">
+              <caret line="3" column="16" lean-forward="true" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="16" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Dockerfile" pinned="false" current-in-tab="false">
+      <file leaf-file-name="Dockerfile" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/broker/Dockerfile">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="594">
-              <caret line="27" column="121" lean-forward="true" selection-start-line="27" selection-start-column="121" selection-end-line="27" selection-end-column="121" />
+            <state relative-caret-position="330">
+              <caret line="15" column="18" lean-forward="true" selection-start-line="15" selection-start-column="18" selection-end-line="15" selection-end-column="18" />
               <folding />
             </state>
           </provider>
@@ -50,8 +50,8 @@
       <file leaf-file-name="docker-compose.yml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/docker-compose.yml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="513">
-              <caret line="41" column="15" lean-forward="false" selection-start-line="41" selection-start-column="15" selection-end-line="41" selection-end-column="15" />
+            <state relative-caret-position="594">
+              <caret line="30" column="18" lean-forward="false" selection-start-line="30" selection-start-column="8" selection-end-line="30" selection-end-column="18" />
               <folding />
             </state>
           </provider>
@@ -108,9 +108,9 @@
         <option value="$PROJECT_DIR$/play.sh" />
         <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/.env" />
+        <option value="$PROJECT_DIR$/namesrv/Dockerfile" />
         <option value="$PROJECT_DIR$/docker-compose.yml" />
         <option value="$PROJECT_DIR$/broker/Dockerfile" />
-        <option value="$PROJECT_DIR$/namesrv/Dockerfile" />
       </list>
     </option>
   </component>
@@ -777,7 +777,7 @@
       <option name="presentableId" value="Default" />
       <updated>1501468869079</updated>
       <workItem from="1501468870697" duration="5136000" />
-      <workItem from="1501483402718" duration="22210000" />
+      <workItem from="1501483402718" duration="22590000" />
     </task>
     <task id="LOCAL-00001" summary="change Dockerfile in broker from CMD to RUN">
       <created>1501481509654</created>
@@ -884,11 +884,18 @@
       <option name="project" value="LOCAL" />
       <updated>1501580964307</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="update Dockerfile">
+      <created>1501586252129</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1501586252129</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="27346000" />
+    <option name="totallyTimeSpent" value="27726000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1874" height="1096" extended-state="6" />
@@ -940,7 +947,8 @@
     <MESSAGE value="set default value for ARG in Dockerfile" />
     <MESSAGE value="improve logs; update play.sh and README.md." />
     <MESSAGE value="make broker Dockerfile more general." />
-    <option name="LAST_COMMIT_MESSAGE" value="make broker Dockerfile more general." />
+    <MESSAGE value="update Dockerfile" />
+    <option name="LAST_COMMIT_MESSAGE" value="update Dockerfile" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -1097,26 +1105,26 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/namesrv/Dockerfile">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="66">
+          <caret line="3" column="16" lean-forward="true" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="16" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/docker-compose.yml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="513">
-          <caret line="41" column="15" lean-forward="false" selection-start-line="41" selection-start-column="15" selection-end-line="41" selection-end-column="15" />
+        <state relative-caret-position="594">
+          <caret line="30" column="18" lean-forward="false" selection-start-line="30" selection-start-column="8" selection-end-line="30" selection-end-column="18" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/broker/Dockerfile">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="594">
-          <caret line="27" column="121" lean-forward="true" selection-start-line="27" selection-start-column="121" selection-end-line="27" selection-end-column="121" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/namesrv/Dockerfile">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="418">
-          <caret line="19" column="71" lean-forward="false" selection-start-line="19" selection-start-column="71" selection-end-line="19" selection-end-column="71" />
+        <state relative-caret-position="330">
+          <caret line="15" column="18" lean-forward="true" selection-start-line="15" selection-start-column="18" selection-end-line="15" selection-end-column="18" />
           <folding />
         </state>
       </provider>

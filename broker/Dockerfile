@@ -1,5 +1,7 @@
+ARG BASE_IMAGE=rocketmq-base-image:4.0.0-incubating
+
 # Start from a base image.
-FROM apache/incubator-rocketmq-base:4.0.0-incubating
+FROM $BASE_IMAGE
 
 # Rocketmq version
 ENV ROCKETMQ_VERSION 4.0.0-incubating

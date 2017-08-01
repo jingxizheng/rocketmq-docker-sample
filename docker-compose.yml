@@ -28,6 +28,7 @@ services:
     build:
       context: ./broker
       args:
+        BASE_IMAGE: $ROCKETMQ_BASE_IMAGE:$ROCKETMQ_VERSION
         BROKER_IP1: 192.168.220.141
         LISTEN_PORT: $ROCKETMQ_BROKER_A_M_PORT
         PROPERTIES_FILE: "2m-2s-sync/broker-a.properties"
