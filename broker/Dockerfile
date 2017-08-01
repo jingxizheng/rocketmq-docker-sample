@@ -24,7 +24,7 @@ RUN echo "brokerIP1=$BROKER_IP1" >> $ROCKETMQ_HOME/conf/2m-2s-sync/broker-a.prop
     && echo "autoCreateTopicEnable=true" >> $ROCKETMQ_HOME/conf/2m-2s-sync/broker-a.properties \
     && echo "autoCreateSubscriptionGroup=true" >> $ROCKETMQ_HOME/conf/2m-2s-sync/broker-a.properties
 
-CMD cd ${ROCKETMQ_HOME}/bin && export JAVA_OPT=" -Duser.home=/opt" && sh mqbroker -c $ROCKETMQ_HOME/conf/2m-2s-sync/broker-a.properties
+CMD cd ${ROCKETMQ_HOME}/bin && export JAVA_OPT=" -Duser.home=/opt" && nohup mqbroker -c $ROCKETMQ_HOME/conf/2m-2s-sync/broker-a.properties >../../opt/logs/broker.log 2>&1 &
 
 VOLUME /opt/logs \
 		/opt/store
