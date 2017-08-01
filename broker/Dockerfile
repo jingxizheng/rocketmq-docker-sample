@@ -1,11 +1,5 @@
-ARG BROKER_IP1
-ARG LISTEN_PORT
-
 # Start from a base image.
 FROM apache/incubator-rocketmq-base:4.0.0-incubating
-
-RUN echo $BROKER_IP1
-RUN echo $LISTEN_PORT
 
 # Rocketmq version
 ENV ROCKETMQ_VERSION 4.0.0-incubating
@@ -22,6 +16,9 @@ RUN mkdir -p \
 
 RUN chmod +x bin/mqbroker
 
+ARG BROKER_IP1
+ARG LISTEN_PORT
+
 RUN echo "brokerIP1=$BROKER_IP1" >> $ROCKETMQ_HOME/conf/2m-2s-sync/broker-a.properties \
     && echo "listenPort=$LISTEN_PORT" >> $ROCKETMQ_HOME/conf/2m-2s-sync/broker-a.properties \
     && echo "autoCreateTopicEnable=true" >> $ROCKETMQ_HOME/conf/2m-2s-sync/broker-a.properties \
@@ -29,7 +26,6 @@ RUN echo "brokerIP1=$BROKER_IP1" >> $ROCKETMQ_HOME/conf/2m-2s-sync/broker-a.prop
 
 CMD cd ${ROCKETMQ_HOME}/bin && export JAVA_OPT=" -Duser.home=/opt" && sh mqbroker -c $ROCKETMQ_HOME/conf/2m-2s-sync/broker-a.properties
 
-EXPOSE 10909 10911
 VOLUME /opt/logs \
 		/opt/store
 
