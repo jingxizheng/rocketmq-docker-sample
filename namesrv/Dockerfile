@@ -19,5 +19,7 @@ RUN chmod +x bin/mqnamesrv
 
 VOLUME /opt/logs \
 		/opt/store
+ENV JAVA_OPT=" -Duser.home=/opt"
+WORKDIR ${ROCKETMQ_HOME}/bin
 
-CMD cd ${ROCKETMQ_HOME}/bin && export JAVA_OPT=" -Duser.home=/opt" && sh mqnamesrv 2>&1 && tail -f /opt/logs/rocketmqlogs/namesrv.log
+CMD sh mqnamesrv > /opt/logs/a.log 2>&1 & && tail -f /opt/logs/a.log
