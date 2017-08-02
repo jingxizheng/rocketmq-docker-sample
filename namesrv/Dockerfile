@@ -24,6 +24,4 @@ ENV JAVA_OPT=" -Duser.home=/opt"
 
 WORKDIR ${ROCKETMQ_HOME}/bin
 
-#CMD (sh mqnamesrv > /opt/logs/a.log 2>&1 &) && tail -f /opt/logs/a.log
-
 CMD sh mqnamesrv

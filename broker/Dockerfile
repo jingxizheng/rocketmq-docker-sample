@@ -32,4 +32,8 @@ RUN echo "brokerIP1=$BROKER_IP1" >> $ROCKETMQ_HOME/conf/$PROPERTIES_FILE \
 VOLUME /opt/logs \
 		/opt/store
 
-CMD cd ${ROCKETMQ_HOME}/bin && export JAVA_OPT=" -Duser.home=/opt" && sh mqbroker -c $ROCKETMQ_HOME/conf/$PROPERTIES_FILE 2>&1 && tail -f /opt/logs/rocketmqlogs/broker.log
+ENV JAVA_OPT=" -Duser.home=/opt"
+
+WORKDIR ${ROCKETMQ_HOME}/bin
+
+CMD sh mqbroker -c $ROCKETMQ_HOME/conf/$PROPERTIES_FILE
