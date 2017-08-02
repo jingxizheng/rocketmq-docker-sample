@@ -58,7 +58,6 @@
     </appender>
     <appender name="RocketmqNamesrvAppender" class="ch.qos.logback.classic.AsyncAppender">
         <appender-ref ref="RocketmqNamesrvAppender_inner"/>
-        <appender-ref ref="STDOUT"/>
         <discardingThreshold>0</discardingThreshold>
     </appender>
 
@@ -88,5 +87,6 @@
     <root>
         <level value="INFO"/>
         <appender-ref ref="DefaultAppender"/>
+        <appender-ref ref="STDOUT"/>
     </root>
 </configuration>
