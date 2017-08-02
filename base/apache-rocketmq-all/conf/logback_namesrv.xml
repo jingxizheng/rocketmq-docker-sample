@@ -38,7 +38,7 @@
     </appender>
 
     <appender name="RocketmqNamesrvAppender_inner"
-              class="ch.qos.logback.core.ConsoleAppender">
+              class="ch.qos.logback.core.rolling.RollingFileAppender">
         <file>${user.home}/logs/rocketmqlogs/namesrv.log</file>
         <append>true</append>
         <rollingPolicy class="ch.qos.logback.core.rolling.FixedWindowRollingPolicy">
@@ -58,6 +58,7 @@
     </appender>
     <appender name="RocketmqNamesrvAppender" class="ch.qos.logback.classic.AsyncAppender">
         <appender-ref ref="RocketmqNamesrvAppender_inner"/>
+        <appender-ref ref="STDOUT"/>
         <discardingThreshold>0</discardingThreshold>
     </appender>
 
