@@ -36,6 +36,7 @@ services:
       NAMESRV_ADDR: $ROCKETMQ_NAMESRV_HOST:$ROCKETMQ_NAMESRV_PORT
     ports:
       - "$ROCKETMQ_BROKER_A_M_PORT:$ROCKETMQ_BROKER_A_M_PORT"
+      - "$ROCKETMQ_BROKER_A_M_PORT_VIP:$ROCKETMQ_BROKER_A_M_PORT_VIP"
     depends_on:
       - rocketmq-base
       - rocketmq-namesrv
@@ -57,6 +58,7 @@ services:
       NAMESRV_ADDR: $ROCKETMQ_NAMESRV_HOST:$ROCKETMQ_NAMESRV_PORT
     ports:
       - "$ROCKETMQ_BROKER_A_S_PORT:$ROCKETMQ_BROKER_A_S_PORT"
+      - "$ROCKETMQ_BROKER_A_S_PORT_VIP:$ROCKETMQ_BROKER_A_S_PORT_VIP"
     depends_on:
       - rocketmq-base
       - rocketmq-namesrv
