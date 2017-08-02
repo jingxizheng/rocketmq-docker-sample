@@ -45,7 +45,7 @@ services:
           - $ROCKETMQ_BROKER_A_M_HOST
 
   rocketmq-broker-a-s:
-    iamge: $ROCKETMQ_BROKER_A_S_IMAGE:$ROCKETMQ_VERSION
+    image: $ROCKETMQ_BROKER_A_S_IMAGE:$ROCKETMQ_VERSION
     build:
       contest: /broker
       args:
