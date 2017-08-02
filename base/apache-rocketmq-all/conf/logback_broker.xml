@@ -281,7 +281,6 @@
     <logger name="RocketmqWaterMark" additivity="false">
         <level value="INFO"/>
         <appender-ref ref="RocketmqWaterMarkAppender"/>
-        <appender-ref ref="STDOUT"/>
     </logger>
 
     <logger name="RocketmqCommon" additivity="false">
