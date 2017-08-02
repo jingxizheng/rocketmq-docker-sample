@@ -1,4 +1,4 @@
-ARG BASE_IMAGE=rocketmq-base-image:4.0.0-incubating
+ARG BASE_IMAGE#=rocketmq-base-image:4.0.0-incubating
 
 # Start from a base image.
 FROM $BASE_IMAGE
@@ -18,9 +18,9 @@ RUN mkdir -p \
 
 RUN chmod +x bin/mqbroker
 
-ARG BROKER_IP1=192.168.220.141
-ARG LISTEN_PORT=10911
-ARG PROPERTIES_FILE="2m-2s-sync/broker-a.properties"
+ARG BROKER_IP1#=192.168.220.141
+ARG LISTEN_PORT#=10911
+ARG PROPERTIES_FILE#="2m-2s-async/broker-a.properties"
 
 ENV PROPERTIES_FILE $PROPERTIES_FILE
 

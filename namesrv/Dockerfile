@@ -1,4 +1,4 @@
-ARG BASE_IMAGE=rocketmq-base-image:4.0.0-incubating
+ARG BASE_IMAGE#=rocketmq-base-image:4.0.0-incubating
 
 # Start from a base image.
 FROM $BASE_IMAGE

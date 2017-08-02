@@ -29,9 +29,9 @@ services:
       context: ./broker
       args:
         BASE_IMAGE: $ROCKETMQ_BASE_IMAGE:$ROCKETMQ_VERSION
-        BROKER_IP1: 192.168.220.141
+        BROKER_IP1: $HM_HOST
         LISTEN_PORT: $ROCKETMQ_BROKER_A_M_PORT
-        PROPERTIES_FILE: "2m-2s-sync/broker-a.properties"
+        PROPERTIES_FILE: "2m-2s-async/broker-a.properties"
     environment:
       NAMESRV_ADDR: $ROCKETMQ_NAMESRV_HOST:$ROCKETMQ_NAMESRV_PORT
     ports:
@@ -43,3 +43,25 @@ services:
       rocketmq:
         aliases:
           - $ROCKETMQ_BROKER_A_M_HOST
+
+  rocketmq-broker-a-s:
+    iamge: $ROCKETMQ_BROKER_A_S_IMAGE:$ROCKETMQ_VERSION
+    build:
+      contest: /broker
+      args:
+        BASE_IMAGE: $ROCKETMQ_BASE_IMAGE:$ROCKETMQ_VERSION
+        BROKER_IP1: $HM_HOST
+        LISTEN_PORT: $ROCKETMQ_BROKER_A_S_HOST
+        PROPERTIES_FILE: "2m-2s-async/broker-a-s.properties"
+    environment:
+      NAMESRV_ADDR: $ROCKETMQ_NAMESRV_HOST:$ROCKETMQ_NAMESRV_PORT
+    ports:
+      - "$ROCKETMQ_BROKER_A_S_PORT:$ROCKETMQ_BROKER_A_S_PORT"
+    depends_on:
+      - rocketmq-base
+      - rocketmq-namesrv
+      - rocketmq-broker-a-m
+    networks:
+      rocketmq:
+        aliases:
+          - $ROCKETMQ_BROKER_A_S_HOST
