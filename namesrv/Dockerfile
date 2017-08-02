@@ -18,6 +18,7 @@ RUN mkdir -p \
 RUN chmod +x bin/mqnamesrv
 
 CMD cd ${ROCKETMQ_HOME}/bin && export JAVA_OPT=" -Duser.home=/opt" && nohup sh mqnamesrv 2>&1 &
+CMD tail -f ../../logs/rocketmqlogs/namesrv.log
 
 VOLUME /opt/logs \
 		/opt/store
