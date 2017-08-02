@@ -47,7 +47,7 @@ services:
   rocketmq-broker-a-s:
     image: $ROCKETMQ_BROKER_A_S_IMAGE:$ROCKETMQ_VERSION
     build:
-      contest: /broker
+      context: /broker
       args:
         BASE_IMAGE: $ROCKETMQ_BASE_IMAGE:$ROCKETMQ_VERSION
         BROKER_IP1: $HM_HOST
