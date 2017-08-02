@@ -21,5 +21,3 @@ VOLUME /opt/logs \
 		/opt/store
 
 CMD cd ${ROCKETMQ_HOME}/bin && export JAVA_OPT=" -Duser.home=/opt" && sh mqnamesrv 2>&1 && tail -f /opt/logs/rocketmqlogs/namesrv.log
-
-
