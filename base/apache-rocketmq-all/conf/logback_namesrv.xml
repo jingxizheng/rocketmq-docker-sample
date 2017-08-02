@@ -38,7 +38,7 @@
     </appender>
 
     <appender name="RocketmqNamesrvAppender_inner"
-              class="ch.qos.logback.core.rolling.RollingFileAppender">
+              class="ch.qos.logback.core.ConsoleAppender">
         <file>${user.home}/logs/rocketmqlogs/namesrv.log</file>
         <append>true</append>
         <rollingPolicy class="ch.qos.logback.core.rolling.FixedWindowRollingPolicy">
