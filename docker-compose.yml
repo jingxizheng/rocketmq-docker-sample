@@ -52,7 +52,7 @@ services:
       args:
         BASE_IMAGE: $ROCKETMQ_BASE_IMAGE:$ROCKETMQ_VERSION
         BROKER_IP1: $HM_HOST
-        LISTEN_PORT: $ROCKETMQ_BROKER_A_S_HOST
+        LISTEN_PORT: $ROCKETMQ_BROKER_A_S_PORT
         PROPERTIES_FILE: "2m-2s-async/broker-a-s.properties"
     environment:
       NAMESRV_ADDR: $ROCKETMQ_NAMESRV_HOST:$ROCKETMQ_NAMESRV_PORT
